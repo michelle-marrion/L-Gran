@@ -1,0 +1,3 @@
+Hello, bienvenue sur mon site;
+
+Il s'agit d'un site web vitrine présentant le restaurant L4Gran qui fait dans les Gauffres. Notre site devra présentér les différents services du restaurant, .........
