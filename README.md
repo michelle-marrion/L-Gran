@@ -22,7 +22,8 @@
  - CSS 3 ;
  - Sass ;
  - Bootstrap 5 ;
+
 ## Final site
-![Capture d'ecran du rendu final!](/images/Grill-House.png "Screenshot du projet site web \"L'Gran\"")
+![Capture d'ecran du rendu final!](/images/L-Gran-site-ok.png "Screenshot du projet site web \"L'Gran\"")
 ## License
 Propriétaire : [Michelle Marrion](https://github.com/michelle-marrion/)
