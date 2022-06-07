@@ -1,0 +1,14 @@
+.gallery-card
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $yellow;
+}
+.new-gallery
+{
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}

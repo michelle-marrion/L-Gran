@@ -1,5 +1,67 @@
+@import "./Utils/variables";
+@import "./Utils/mixins";
+@import "./Utils/variables_overrides";
+@import "./Layout/header";
+@import "./Pages/gallery";
+@import "./Pages/footer";
+@import "./Pages/section";
+@import "normalize";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 body
 {
     margin: auto;
     padding: 0px;
+    background-color: $background-color;
+    color: $primary-color;
+}
+
+main
+{
+    span{
+        color: $yellow;
+    }
+}
+
+
+
+#contact
+{
+    .pt-5
+    {
+        text-align: center;
+    }
+    h3
+    {
+        color: $yellow;
+    }
+}
+#temoignage
+{
+    text-align: center;
+    h2,h3
+    {
+        color:$yellow;
+    }
+    background-image: url(../images/background/fond-noir.png);
+    background-size: cover;
+}
+#book-now
+{
+    background-image: url(../images/background/fond-noir-lise.png);
+    background-size: cover;
+    form
+    {
+        label
+        {
+            @extend .fs-5;
+            @extend .fw-light;
+        }
+        input 
+        {
+            border: 2px solid $yellow;
+            border-color: $yellow;
+            background: transparent;
+            color:$primary-color;
+        }
+    }
 }

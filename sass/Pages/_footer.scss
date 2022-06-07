@@ -1,0 +1,30 @@
+footer{
+    hr
+    {
+        border-top:3px dotted $yellow;
+    
+    }
+    li
+    {
+        a
+        {
+            font-family:'Arial';
+            text-decoration: none;
+            color: $primary-color;
+            // @extend .fw-light;
+            &:hover
+            {
+                color: $yellow;
+            }
+
+        }
+        @extend .mx-3;
+    }
+}
+i{
+    // @extend .fa-2x;
+    color:$primary-color;}
+i:hover
+{
+    color: $yellow;
+}

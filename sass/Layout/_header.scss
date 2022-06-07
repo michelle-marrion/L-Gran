@@ -1,0 +1,44 @@
+header
+{
+    nav
+    {
+
+        background-color: #575755;
+        .container
+        {
+            margin: auto;
+            .row
+            {
+               
+                ul
+                {
+                    li
+                    {
+                        @extend .mx-3;
+                        a
+                        {
+                            // @extend .mx-2;
+                            // @extend .fs-5;
+                            font-family:'Arial';
+                            text-decoration: none;
+                            color: $primary-color;
+                            @extend .fw-bold;
+    
+                        }
+                    }
+                    strong
+                    {
+                        @extend .fs-1;
+                        @extend .fw-bold;
+                        font-family:'Autography';
+                    }
+                    span
+                    {
+                        @extend .fw-normal;
+                    }
+                }
+                
+            }
+        }
+    
+}}

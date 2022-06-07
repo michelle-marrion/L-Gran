@@ -1,0 +1,45 @@
+#food-quality
+{
+    @include Background('../images/background/fond-noir-granule-02.png');
+    #discount
+    {
+        h4
+        {
+            color: $yellow;
+        }
+    }
+}
+#gallery
+{
+    @include Background('../images/background/fond-noir-granule-01.png');
+}
+#about
+{
+    @include Background('../images/gauffres/gauffre-chocolate-cookies.png');
+   
+}
+#start
+{
+    @include Background('../images/background/fond-noir-granule-02.png');
+    // background-image: url(../images/background/fond-noir-granule-02.png);
+    // background-size:cover;
+    div
+    {
+        div
+        {
+            h4
+    {
+        @extend .fw-bold;
+        color: $yellow;
+    }
+        }
+    }
+    #book-now
+    {
+        background-color: aliceblue;
+        @extend .fw-bold;
+        span{
+            color: $yellow;
+        }
+    }
+}
